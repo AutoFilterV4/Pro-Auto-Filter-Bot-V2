@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# (c) @AlbertEinsteinTG @MRK_YT
+# (c) @AlbertEinsteinTG @punisherofc
 
 class Translation(object):
     
@@ -49,7 +49,7 @@ class Translation(object):
 <b><a href="https://t.me/Mo_Tech_YT">© Mo Tech YT</a></b>
 """
     
-    ABOUT_TEXT = """<b>➥ 📃Name</b> : <b>DEVIL</b>
+    ABOUT_TEXT = """<b>➥ 📃Name</b> : <b>PUNISHER</b>
 
 <b>>➥👨‍💼Master</b> : <b><a href="https://t.me/punisherofc">👤</a></b>
 
