@@ -34,7 +34,7 @@ async def start(bot, update):
             )
             return
         except Exception:
-            await update.reply_text(f"<b>This bot should be the admin on your update channel</b>\n\n<b>💢 ഈ ചാനലിൽ  @{UPDATE_CHANNEL} ബോട്ടിനെ അഡ്മിൻ ആക്. എന്നിട്ട് /start കൊടുക്</b>\n\n<b>🗣️ any Doubt @Mo_Tech_Group</b>")
+            await update.reply_text(f"<b>This bot should be the admin on your update channel</b>\n\n<b>💢 ഈ ചാനലിൽ  @{UPDATE_CHANNEL} ബോട്ടിനെ അഡ്മിൻ ആക്. എന്നിട്ട് /start കൊടുക്</b>\n\n<b>🗣️ any Doubt @punisherofc</b>")
             return  
     try:
         file_uid = update.command[1]
@@ -119,13 +119,13 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('👨‍💼Creater', url=f'https://t.me/{MRK_YT_MASTER}'),
+        InlineKeyboardButton('👨‍💼Creater', url=f'https://t.me/{punisherofc}'),
         InlineKeyboardButton('Help 🤔', callback_data="help")
     ],[
-        InlineKeyboardButton('🗣️Group', url=f'{MT_GROUP}'),
-        InlineKeyboardButton('Channel🔊', url=f'{MT_CHANNEL}')
+        InlineKeyboardButton('🗣️Group', url=f'{srsuggestionsofficial}'),
+        InlineKeyboardButton('Channel🔊', url=f'{srsuggestionsmc}')
     ],[
-        InlineKeyboardButton('🖥️ Tutorial Video 🖥️', url='https://youtu.be/OTqZmADyOjU')
+        InlineKeyboardButton('🖥️ Owner 🖥️', url='https://t.me/punisherofc')
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -164,7 +164,7 @@ async def help(bot, update):
 async def about(bot, update):
     
     buttons = [[
-        InlineKeyboardButton('👤 Mrk YT👤', url='https://t.me/MRK_YT'),
+        InlineKeyboardButton('👤 PUNISHER 👤', url='https://t.me/punisherofc'),
         InlineKeyboardButton('Skp KP👤', url='https://t.me/Skp_Kp')
     ],[
         InlineKeyboardButton('👤 AlbertEinstein 👤', url='https://t.me/AlbertEinsteinTG')
